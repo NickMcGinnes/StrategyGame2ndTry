@@ -904,9 +904,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: e0ba6c6de15411042a7fa0dd0a21db0d, type: 2}
   amount: 1
-  gridtype: 1
-  gridcolor: {r: 0.017409164, g: 0.16911763, b: 0.12517448, a: 1}
-  xstep: 5
+  gridtype: 2
+  gridcolor: {r: 0, g: 0.102941155, b: 0.051825546, a: 1}
+  xstep: 4
   ystep: 2
   xoffset: 0
   yoffset: 0
@@ -914,7 +914,7 @@ MonoBehaviour:
   xmax: 1
   ymin: 0
   ymax: 1
-  flashing: 0
+  flashing: 1
 --- !u!124 &2109198117
 Behaviour:
   m_ObjectHideFlags: 0
