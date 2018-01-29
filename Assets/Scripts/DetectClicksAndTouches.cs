@@ -8,7 +8,7 @@ public class DetectClicksAndTouches : MonoBehaviour
 	public Camera DetectionCamera;
 	
 	//this variable adds a Debug.Log call to show what was touched
-	public bool debug = false;
+	public bool Debug = false;
 	
 	//this is the actual camera we reference in the update loop, set in Start()
 	private Camera _camera;
@@ -43,8 +43,8 @@ public class DetectClicksAndTouches : MonoBehaviour
 					
 					if (Physics.Raycast(ray, out hit, Mathf.Infinity))
 					{
-						if(debug)
-							Debug.Log("You touched " + hit.collider.gameObject.name,hit.collider.gameObject);
+						if(Debug)
+							UnityEngine.Debug.Log("You touched " + hit.collider.gameObject.name,hit.collider.gameObject);
 						
 						hit.transform.gameObject.SendMessage("Clicked",hit.point,SendMessageOptions.DontRequireReceiver);
 					}
@@ -62,8 +62,8 @@ public class DetectClicksAndTouches : MonoBehaviour
 				if (Physics.Raycast(ray, out hit, Mathf.Infinity))
 				{
 					//tell the system what we've clicked on if in Debug mode
-					if(debug)
-						Debug.Log("You clicked " + hit.collider.gameObject.name,hit.collider.gameObject);
+					if(Debug)
+						UnityEngine.Debug.Log("You clicked " + hit.collider.gameObject.name,hit.collider.gameObject);
 						
 					//run the Clicked() function on the clicked object
 					hit.transform.gameObject.SendMessage("Clicked",hit.point,SendMessageOptions.DontRequireReceiver);
@@ -78,8 +78,8 @@ public class DetectClicksAndTouches : MonoBehaviour
 				if (Physics.Raycast(ray, out hit, Mathf.Infinity))
 				{
 					//tell the system what we've clicked on if in Debug mode
-					if(debug)
-						Debug.Log("You right clicked " + hit.collider.gameObject.name,hit.collider.gameObject);
+					if(Debug)
+						UnityEngine.Debug.Log("You right clicked " + hit.collider.gameObject.name,hit.collider.gameObject);
 						
 					//run the Clicked() function on the clicked object
 					hit.transform.gameObject.SendMessage("RightClicked",hit.point,SendMessageOptions.DontRequireReceiver);

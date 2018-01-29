@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\Users\Nick\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_StrategyGame2ndTry.-619165096.00" t="ExcludeRecursive" />
     <e p="D:\Unity\Projects\Year3\Prototyping\StrategyGame2ndTry" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="grideffect" t="Include">
@@ -11,11 +12,20 @@
           <e p="gridshader.shader" t="Include" />
           <e p="readme.txt" t="Include" />
         </e>
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="ActivateGameObjectsWhenSelected.cs" t="Include" />
           <e p="BasicUnitMovement.cs" t="Include" />
           <e p="BuildUnitOnClicked.cs" t="Include" />
           <e p="BuildUnits.cs" t="Include" />
+          <e p="CameraFollowPlayer.cs" t="Include" />
+          <e p="CameraScroll.cs" t="Include" />
           <e p="DeselectUnitsOnClicked.cs" t="Include" />
           <e p="DestroyOnInvisible.cs" t="Include" />
           <e p="DestroyParticleEffectWhenDone.cs" t="Include" />
@@ -25,6 +35,7 @@
           <e p="HorribleAnnihilationSphere.cs" t="Include" />
           <e p="MoveSelectedUnitsOnRightClick.cs" t="Include" />
           <e p="MoveTowardNearestPlayerUnit.cs" t="Include" />
+          <e p="MyAgent.cs" t="Include" />
           <e p="SelectPlayerUnitOnClicked.cs" t="Include" />
           <e p="ShootAtUnitsInRange.cs" t="Include" />
           <e p="UnitManager.cs" t="Include" />
