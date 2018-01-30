@@ -5,15 +5,16 @@ using UnityEngine;
 
 public class HorribleAnnihilationSphere : MonoBehaviour
 {
-	public string[] annihilationTags;
+	public string[] AnnihilationTags;
+	public float Damage = 2.0f;
 	
 	private void OnCollisionEnter(Collision other)
 	{
-		foreach (string tag in annihilationTags)
+		foreach (string eachTag in AnnihilationTags)
 		{
-			if (other.collider.tag == tag)
+			if (other.collider.CompareTag(eachTag))
 			{
-				Destroy(other.gameObject);
+				other.gameObject.GetComponent<ShipHealth>().Hit(Damage);
 				Destroy(gameObject);
 				return;
 			}

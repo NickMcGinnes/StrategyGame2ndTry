@@ -24,7 +24,7 @@ public class CameraFollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
-        //transform.LookAt(player.transform);
+        transform.LookAt(Player.transform);
         Vector3 currentPos = transform.position;
         Vector3 targetPos = Player.transform.position;
         
