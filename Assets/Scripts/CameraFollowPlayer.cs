@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+
 
 public class CameraFollowPlayer : MonoBehaviour
 {
@@ -8,11 +8,11 @@ public class CameraFollowPlayer : MonoBehaviour
     private Vector3 _vcameraDifference;
 
     private Vector3 _currentPos;
-	
+
     // Use this for initialization
-	void Start ()
+    void Start()
     {
-        _vcameraDifference.x =  - transform.position.x - Player.transform.position.x;
+        _vcameraDifference.x = -transform.position.x - Player.transform.position.x;
         _vcameraDifference.y = transform.position.y - Player.transform.position.y;
         _vcameraDifference.z = Player.transform.position.z - transform.position.z;
 
@@ -22,19 +22,19 @@ public class CameraFollowPlayer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update ()
+    void Update()
     {
         transform.LookAt(Player.transform);
         Vector3 currentPos = transform.position;
         Vector3 targetPos = Player.transform.position;
-        
+
         targetPos.y = _vcameraDifference.y;
         targetPos.z -= _vcameraDifference.z;
 
         var currentDistance = Vector3.Distance(targetPos, currentPos);
         currentDistance = currentDistance * 2;
-        
-        currentPos =  Vector3.Lerp(currentPos, targetPos, currentDistance*Time.deltaTime);
+
+        currentPos = Vector3.Lerp(currentPos, targetPos, currentDistance * Time.deltaTime);
         transform.position = currentPos;
-	}
+    }
 }

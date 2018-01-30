@@ -17,18 +17,11 @@ public class MoveSelectedUnitsOnRightClick : MonoBehaviour
 	}
 	
 	void RightClicked(Vector3 clickPosition)
-	{
-		bool unitsSelected = false;
-		
-		
+	{	
 		foreach (GameObject unit in _unitManager.GetSelectedUnits())
 		{
-			unitsSelected = true;
 			//unit.SendMessage("MoveOrder", clickPosition);
 			unit.GetComponent<MyAgent>().NavTarget(clickPosition);
 		}
-		//if (unitsSelected)
-		//Instantiate(MoveEffectObject, clickPosition, MoveEffectObject.transform.rotation);
-		
 	}
 }
