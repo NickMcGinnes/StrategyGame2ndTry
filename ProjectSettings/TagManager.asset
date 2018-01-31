@@ -6,6 +6,11 @@ TagManager:
   tags:
   - PlayerUnitManager
   - PlayerMainShip
+  - EnemyVessel
+  - FleetVessel
+  - PlayerFighter
+  - EnemyFighter
+  - Nuke
   layers:
   - Default
   - TransparentFX
@@ -17,7 +22,7 @@ TagManager:
   - 
   - EnemyMask
   - PlayerMask
-  - 
+  - FleetMask
   - 
   - 
   - 

@@ -11,47 +11,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CameraFollowPlayer.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs">
+      <file leaf-file-name="MoveSelectedUnitsOnRightClick.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveSelectedUnitsOnRightClick.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
-                <marker date="1517241672486" expanded="false" signature="6:44" ph="..." />
-                <marker date="1517241672486" expanded="true" signature="93:1221" ph="{...}" />
-                <marker date="1517241672486" expanded="true" signature="252:643" ph="{...}" />
-                <marker date="1517241672486" expanded="true" signature="520:637" ph="/* Debug.Log(vcameraDifference.x); ... */" />
-                <marker date="1517241672486" expanded="true" signature="702:1219" ph="{...}" />
+                <marker date="1517349436774" expanded="false" signature="6:100" ph="..." />
+                <marker date="1517349436774" expanded="true" signature="160:624" ph="{...}" />
+                <marker date="1517349436774" expanded="true" signature="285:391" ph="{...}" />
+                <marker date="1517349436774" expanded="true" signature="435:622" ph="{...}" />
+                <marker date="1517349436774" expanded="true" signature="502:619" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraScroll.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraScroll.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding>
-                <marker date="1517241846190" expanded="false" signature="6:78" ph="..." />
-                <marker date="1517241846190" expanded="true" signature="121:424" ph="{...}" />
-                <marker date="1517241846190" expanded="true" signature="183:422" ph="{...}" />
-                <marker date="1517241846190" expanded="true" signature="232:302" ph="{...}" />
-                <marker date="1517241846190" expanded="true" signature="349:419" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DestroyOnInvisible.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnInvisible.cs">
+      <file leaf-file-name="MyAgent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1517198546085" expanded="false" signature="6:78" ph="..." />
-                <marker date="1517198546085" expanded="true" signature="128:214" ph="{...}" />
-                <marker date="1517198546085" expanded="true" signature="171:212" ph="{...}" />
+                <marker date="1517349436772" expanded="true" signature="6:100" ph="..." />
+                <marker date="1517349436772" expanded="true" signature="139:246" ph="{...}" />
+                <marker date="1517349436772" expanded="true" signature="181:242" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveTowardNearestPlayerUnit.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveTowardNearestPlayerUnit.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <marker date="1517355933942" expanded="false" signature="6:116" ph="..." />
+                <marker date="1517355933942" expanded="true" signature="174:946" ph="{...}" />
+                <marker date="1517355933942" expanded="true" signature="371:715" ph="{...}" />
+                <marker date="1517355933942" expanded="true" signature="506:712" ph="{...}" />
+                <marker date="1517355933942" expanded="true" signature="639:708" ph="{...}" />
+                <marker date="1517355933942" expanded="true" signature="769:944" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShootAtUnitsInRange.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShootAtUnitsInRange.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <folding>
+                <marker date="1517253816084" expanded="false" signature="6:78" ph="..." />
+                <marker date="1517253816084" expanded="true" signature="128:1031" ph="{...}" />
+                <marker date="1517253816084" expanded="true" signature="324:360" ph="{...}" />
+                <marker date="1517253816084" expanded="true" signature="412:624" ph="{...}" />
+                <marker date="1517253816084" expanded="true" signature="529:582" ph="{...}" />
+                <marker date="1517253816084" expanded="true" signature="589:621" ph="{...}" />
+                <marker date="1517253816084" expanded="true" signature="639:1029" ph="{...}" />
+                <marker date="1517253816084" expanded="true" signature="670:996" ph="{...}" />
+                <marker date="1517253816084" expanded="true" signature="810:992" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HorribleAnnihilationSphere.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HorribleAnnihilationSphere.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <marker date="1517349436768" expanded="true" signature="6:78" ph="..." />
+                <marker date="1517349436768" expanded="true" signature="135:466" ph="{...}" />
+                <marker date="1517349436768" expanded="true" signature="251:464" ph="{...}" />
+                <marker date="1517349436768" expanded="true" signature="301:460" ph="{...}" />
+                <marker date="1517349436768" expanded="true" signature="348:456" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -63,26 +100,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyAgent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTowardNearestPlayerUnit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../CookingWithUnity/29RTS/Assets/Scripts/DeselectUnitsOnClicked.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShootAtUnitsInRange.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnInvisible.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HorribleAnnihilationSphere.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveSelectedUnitsOnRightClick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BasicUnitMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildUnits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScroll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelectPlayerUnitOnClicked.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTowardNearestPlayerUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShootAtUnitsInRange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnInvisible.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyAgent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs" />
         <option value="$PROJECT_DIR$/Assets/MyAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveSelectedUnitsOnRightClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HorribleAnnihilationSphere.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraScroll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveTowardNearestPlayerUnit.cs" />
       </list>
     </option>
   </component>
@@ -92,7 +133,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="240" />
     <option name="y" value="131" />
     <option name="width" value="1440" />
@@ -140,6 +181,11 @@
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="StrategyGame2ndTry (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -183,11 +229,13 @@
       <workItem from="1517230061677" duration="31000" />
       <workItem from="1517232161848" duration="3178000" />
       <workItem from="1517236465523" duration="4244000" />
+      <workItem from="1517260732343" duration="2387000" />
+      <workItem from="1517349812264" duration="3428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7453000" />
+    <option name="totallyTimeSpent" value="13268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,7 +247,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -210,7 +258,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -243,270 +291,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1517232312962" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517232312962" expanded="true" signature="131:2490" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="414:530" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="448:486" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="493:527" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="584:2488" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="729:1199" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="775:1195" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="821:1190" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="942:1184" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1248:2485" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1320:1861" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1501:1856" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1929:2481" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="2110:2476" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveSelectedUnitsOnRightClick.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517241054949" expanded="true" signature="6:100" ph="..." />
-            <marker date="1517241054949" expanded="true" signature="160:797" ph="{...}" />
-            <marker date="1517241054949" expanded="true" signature="285:391" ph="{...}" />
-            <marker date="1517241054949" expanded="true" signature="435:795" ph="{...}" />
-            <marker date="1517241054949" expanded="true" signature="537:679" ph="{...}" />
-            <marker date="1517241054949" expanded="true" signature="682:789" ph="/* if (unitsSelected) ... */" />
+            <marker date="1517349436774" expanded="false" signature="6:100" ph="..." />
+            <marker date="1517349436774" expanded="true" signature="160:624" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="285:391" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="435:622" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="502:619" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../CookingWithUnity/29RTS/Assets/Scripts/DeselectUnitsOnClicked.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HorribleAnnihilationSphere.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SelectPlayerUnitOnClicked.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding>
-            <marker date="1517198546111" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517198546111" expanded="true" signature="134:570" ph="{...}" />
-            <marker date="1517198546111" expanded="true" signature="194:300" ph="{...}" />
-            <marker date="1517198546111" expanded="true" signature="317:568" ph="{...}" />
-            <marker date="1517198546111" expanded="true" signature="451:562" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShootAtUnitsInRange.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <marker date="1517198546110" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517198546110" expanded="true" signature="128:1031" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="324:360" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="412:624" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="529:582" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="589:621" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="639:1029" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="670:996" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="810:992" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BasicUnitMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517198546073" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517198546073" expanded="true" signature="126:820" ph="{...}" />
-            <marker date="1517198546073" expanded="true" signature="253:278" ph="{...}" />
-            <marker date="1517198546073" expanded="true" signature="293:340" ph="{...}" />
-            <marker date="1517198546073" expanded="true" signature="356:818" ph="{...}" />
-            <marker date="1517198546073" expanded="true" signature="609:815" ph="/* his crazy radius check ... */" />
+            <marker date="1517349436768" expanded="true" signature="6:78" ph="..." />
+            <marker date="1517349436768" expanded="true" signature="135:466" ph="{...}" />
+            <marker date="1517349436768" expanded="true" signature="251:464" ph="{...}" />
+            <marker date="1517349436768" expanded="true" signature="301:460" ph="{...}" />
+            <marker date="1517349436768" expanded="true" signature="348:456" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <marker date="1517241672486" expanded="false" signature="6:44" ph="..." />
-            <marker date="1517241672486" expanded="true" signature="93:1221" ph="{...}" />
-            <marker date="1517241672486" expanded="true" signature="252:643" ph="{...}" />
-            <marker date="1517241672486" expanded="true" signature="520:637" ph="/* Debug.Log(vcameraDifference.x); ... */" />
-            <marker date="1517241672486" expanded="true" signature="702:1219" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517232312962" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517232312962" expanded="true" signature="131:2490" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="414:530" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="448:486" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="493:527" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="584:2488" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="729:1199" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="775:1195" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="821:1190" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="942:1184" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1248:2485" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1320:1861" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1501:1856" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1929:2481" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="2110:2476" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BasicUnitMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517198546073" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517198546073" expanded="true" signature="126:820" ph="{...}" />
-            <marker date="1517198546073" expanded="true" signature="253:278" ph="{...}" />
-            <marker date="1517198546073" expanded="true" signature="293:340" ph="{...}" />
-            <marker date="1517198546073" expanded="true" signature="356:818" ph="{...}" />
-            <marker date="1517198546073" expanded="true" signature="609:815" ph="/* his crazy radius check ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1517232312962" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517232312962" expanded="true" signature="131:2490" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="414:530" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="448:486" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="493:527" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="584:2488" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="729:1199" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="775:1195" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="821:1190" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="942:1184" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1248:2485" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1320:1861" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1501:1856" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="1929:2481" ph="{...}" />
-            <marker date="1517232312962" expanded="true" signature="2110:2476" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MyAgent.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShootAtUnitsInRange.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <marker date="1517198546110" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517198546110" expanded="true" signature="128:1031" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="324:360" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="412:624" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="529:582" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="589:621" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="639:1029" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="670:996" ph="{...}" />
-            <marker date="1517198546110" expanded="true" signature="810:992" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SelectPlayerUnitOnClicked.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517198546111" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517198546111" expanded="true" signature="134:570" ph="{...}" />
-            <marker date="1517198546111" expanded="true" signature="194:300" ph="{...}" />
-            <marker date="1517198546111" expanded="true" signature="317:568" ph="{...}" />
-            <marker date="1517198546111" expanded="true" signature="451:562" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../CookingWithUnity/29RTS/Assets/Scripts/DeselectUnitsOnClicked.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyAgent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517234447532" expanded="false" signature="6:100" ph="..." />
-            <marker date="1517234447532" expanded="true" signature="138:244" ph="{...}" />
-            <marker date="1517234447532" expanded="true" signature="181:242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveSelectedUnitsOnRightClick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1517241054949" expanded="true" signature="6:100" ph="..." />
-            <marker date="1517241054949" expanded="true" signature="160:797" ph="{...}" />
-            <marker date="1517241054949" expanded="true" signature="285:391" ph="{...}" />
-            <marker date="1517241054949" expanded="true" signature="435:795" ph="{...}" />
-            <marker date="1517241054949" expanded="true" signature="537:679" ph="{...}" />
-            <marker date="1517241054949" expanded="true" signature="682:789" ph="/* if (unitsSelected) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveTowardNearestPlayerUnit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1517198546105" expanded="false" signature="6:116" ph="..." />
-            <marker date="1517198546105" expanded="true" signature="174:816" ph="{...}" />
-            <marker date="1517198546105" expanded="true" signature="346:635" ph="{...}" />
-            <marker date="1517198546105" expanded="true" signature="426:632" ph="{...}" />
-            <marker date="1517198546105" expanded="true" signature="559:628" ph="{...}" />
-            <marker date="1517198546105" expanded="true" signature="689:814" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="450">
           <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
-            <marker date="1517241672486" expanded="false" signature="6:44" ph="..." />
-            <marker date="1517241672486" expanded="true" signature="93:1221" ph="{...}" />
-            <marker date="1517241672486" expanded="true" signature="252:643" ph="{...}" />
-            <marker date="1517241672486" expanded="true" signature="520:637" ph="/* Debug.Log(vcameraDifference.x); ... */" />
-            <marker date="1517241672486" expanded="true" signature="702:1219" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="68:1182" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="228:617" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="494:611" ph="/* Debug.Log(vcameraDifference.x); ... */" />
+            <marker date="1517349834147" expanded="true" signature="675:1180" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -515,24 +336,251 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraScroll.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
-            <marker date="1517198546085" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517198546085" expanded="true" signature="128:214" ph="{...}" />
-            <marker date="1517198546085" expanded="true" signature="171:212" ph="{...}" />
+            <marker date="1517353521004" expanded="false" signature="6:78" ph="..." />
+            <marker date="1517353521004" expanded="true" signature="121:728" ph="{...}" />
+            <marker date="1517353521004" expanded="true" signature="241:726" ph="{...}" />
+            <marker date="1517353521004" expanded="true" signature="290:479" ph="{...}" />
+            <marker date="1517353521004" expanded="true" signature="526:723" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveSelectedUnitsOnRightClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1517349436774" expanded="false" signature="6:100" ph="..." />
+            <marker date="1517349436774" expanded="true" signature="160:624" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="285:391" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="435:622" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="502:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CookingWithUnity/29RTS/Assets/Scripts/DeselectUnitsOnClicked.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SelectPlayerUnitOnClicked.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShootAtUnitsInRange.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <marker date="1517253816084" expanded="false" signature="6:78" ph="..." />
+            <marker date="1517253816084" expanded="true" signature="128:1031" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="324:360" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="412:624" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="529:582" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="589:621" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="639:1029" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="670:996" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="810:992" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BasicUnitMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <marker date="1517349834147" expanded="true" signature="68:1182" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="228:617" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="494:611" ph="/* Debug.Log(vcameraDifference.x); ... */" />
+            <marker date="1517349834147" expanded="true" signature="675:1180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BasicUnitMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DetectClicksAndTouches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MyAgent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SelectPlayerUnitOnClicked.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../CookingWithUnity/29RTS/Assets/Scripts/DeselectUnitsOnClicked.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <marker date="1517349834147" expanded="true" signature="68:1182" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="228:617" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="494:611" ph="/* Debug.Log(vcameraDifference.x); ... */" />
+            <marker date="1517349834147" expanded="true" signature="675:1180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnInvisible.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BuildUnits.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembly-CSharp.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShipHealth.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <marker date="1517349834147" expanded="true" signature="68:1182" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="228:617" ph="{...}" />
+            <marker date="1517349834147" expanded="true" signature="494:611" ph="/* Debug.Log(vcameraDifference.x); ... */" />
+            <marker date="1517349834147" expanded="true" signature="675:1180" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraScroll.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="105">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
-            <marker date="1517241846190" expanded="false" signature="6:78" ph="..." />
-            <marker date="1517241846190" expanded="true" signature="121:424" ph="{...}" />
-            <marker date="1517241846190" expanded="true" signature="183:422" ph="{...}" />
-            <marker date="1517241846190" expanded="true" signature="232:302" ph="{...}" />
-            <marker date="1517241846190" expanded="true" signature="349:419" ph="{...}" />
+            <marker date="1517353521004" expanded="false" signature="6:78" ph="..." />
+            <marker date="1517353521004" expanded="true" signature="121:728" ph="{...}" />
+            <marker date="1517353521004" expanded="true" signature="241:726" ph="{...}" />
+            <marker date="1517353521004" expanded="true" signature="290:479" ph="{...}" />
+            <marker date="1517353521004" expanded="true" signature="526:723" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShootAtUnitsInRange.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <marker date="1517253816084" expanded="false" signature="6:78" ph="..." />
+            <marker date="1517253816084" expanded="true" signature="128:1031" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="324:360" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="412:624" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="529:582" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="589:621" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="639:1029" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="670:996" ph="{...}" />
+            <marker date="1517253816084" expanded="true" signature="810:992" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HorribleAnnihilationSphere.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <marker date="1517349436768" expanded="true" signature="6:78" ph="..." />
+            <marker date="1517349436768" expanded="true" signature="135:466" ph="{...}" />
+            <marker date="1517349436768" expanded="true" signature="251:464" ph="{...}" />
+            <marker date="1517349436768" expanded="true" signature="301:460" ph="{...}" />
+            <marker date="1517349436768" expanded="true" signature="348:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveSelectedUnitsOnRightClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <marker date="1517349436774" expanded="false" signature="6:100" ph="..." />
+            <marker date="1517349436774" expanded="true" signature="160:624" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="285:391" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="435:622" ph="{...}" />
+            <marker date="1517349436774" expanded="true" signature="502:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517349436772" expanded="true" signature="6:100" ph="..." />
+            <marker date="1517349436772" expanded="true" signature="139:246" ph="{...}" />
+            <marker date="1517349436772" expanded="true" signature="181:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveTowardNearestPlayerUnit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <marker date="1517355933942" expanded="false" signature="6:116" ph="..." />
+            <marker date="1517355933942" expanded="true" signature="174:946" ph="{...}" />
+            <marker date="1517355933942" expanded="true" signature="371:715" ph="{...}" />
+            <marker date="1517355933942" expanded="true" signature="506:712" ph="{...}" />
+            <marker date="1517355933942" expanded="true" signature="639:708" ph="{...}" />
+            <marker date="1517355933942" expanded="true" signature="769:944" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -22,12 +22,12 @@ GameObject:
   - component: {fileID: 33964092098754236}
   - component: {fileID: 135704706313878900}
   - component: {fileID: 23118017495253846}
-  - component: {fileID: 54842865112518344}
-  - component: {fileID: 114978439157945802}
-  - component: {fileID: 114796070060456522}
-  - component: {fileID: 96564349827268834}
+  - component: {fileID: 114394821829259366}
+  - component: {fileID: 114147437730642438}
+  - component: {fileID: 54149369860403392}
+  - component: {fileID: 96588855962379798}
   m_Layer: 0
-  m_Name: EnemyBullet
+  m_Name: PlayerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1699910104873424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -530.2508, y: 0.5, z: 6.938862}
+  m_LocalPosition: {x: -545.15454, y: 0.5909736, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -60,7 +60,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5f758ff5bea955b43b7a86929ce96fd3, type: 2}
+  - {fileID: 2100000, guid: 0cdefb83061bde8479e8f7643d205bb2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,7 +87,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1699910104873424}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54842865112518344
+--- !u!54 &54149369860403392
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -102,7 +102,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!96 &96564349827268834
+--- !u!96 &96588855962379798
 TrailRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 1
@@ -110,14 +110,14 @@ TrailRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1699910104873424}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: ab51efd1ac566f141922a825b00d1c8d, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -152,11 +152,11 @@ TrailRenderer:
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-      m_RotationOrder: 4
+      m_RotationOrder: 0
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 1, g: 0, b: 0, a: 1}
+      key1: {r: 1, g: 0, b: 0, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -189,7 +189,7 @@ TrailRenderer:
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
---- !u!114 &114796070060456522
+--- !u!114 &114147437730642438
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -201,11 +201,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AnnihilationTags:
-  - PlayerMainShip
-  - FleetVessel
-  - PlayerFighter
+  - EnemyVessel
   Damage: 2
---- !u!114 &114978439157945802
+--- !u!114 &114394821829259366
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -224,7 +222,7 @@ SphereCollider:
   m_GameObject: {fileID: 1699910104873424}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}

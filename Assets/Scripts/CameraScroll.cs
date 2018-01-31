@@ -6,16 +6,29 @@ public class CameraScroll : MonoBehaviour
 {
 
 	private float _amountChange = 150;
+
+	private float _max = 50.0f;
+	private float _min = 5.5f;
 	private void Update()
 	{
 		if (Input.GetAxis("Mouse ScrollWheel") > 0)
 		{
-			Camera.main.fieldOfView -= _amountChange * Time.deltaTime;
+			if (Camera.main.fieldOfView > _min)
+				Camera.main.fieldOfView -= _amountChange * Time.deltaTime;
+			
+			if (Camera.main.fieldOfView < _min)
+				Camera.main.fieldOfView = _min;
 		}
 
 		if (Input.GetAxis("Mouse ScrollWheel") < 0)
 		{
-			Camera.main.fieldOfView += _amountChange * Time.deltaTime;
+			
+			if (Camera.main.fieldOfView < _max)
+				Camera.main.fieldOfView += _amountChange * Time.deltaTime;
+			
+			if (Camera.main.fieldOfView > _max)
+				Camera.main.fieldOfView = _max;
+			
 		}
 	}
 }
