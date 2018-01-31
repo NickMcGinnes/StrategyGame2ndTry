@@ -7,8 +7,8 @@ public class CameraScroll : MonoBehaviour
 
 	private float _amountChange = 150;
 
-	private float _max = 65.0f;
-	private float _min = 7.5f;
+	private float _max = 50.0f;
+	private float _min = 5.5f;
 	private void Update()
 	{
 		if (Input.GetAxis("Mouse ScrollWheel") > 0)

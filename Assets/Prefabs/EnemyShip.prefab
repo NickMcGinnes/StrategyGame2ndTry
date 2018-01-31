@@ -23,6 +23,9 @@ GameObject:
   - component: {fileID: 23631540985474326}
   - component: {fileID: 65711384814920438}
   - component: {fileID: 65083586982893424}
+  - component: {fileID: 114087726220766942}
+  - component: {fileID: 195340461526310476}
+  - component: {fileID: 114348634820663352}
   m_Layer: 8
   m_Name: EnemyShip
   m_TagString: EnemyVessel
@@ -114,7 +117,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1259382162249310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -180,3 +183,55 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.69, y: 3.24, z: 13.31}
   m_Center: {x: 0, y: -0.43, z: -0.9}
+--- !u!114 &114087726220766942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259382162249310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121a27706475f5e439048975a81e45f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 0
+  Maxhealth: 10
+--- !u!114 &114348634820663352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259382162249310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0ee0dd2f9dccc4a89f8fc643597aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bullet: {fileID: 1699910104873424, guid: 04d44795538ec0c4a87dc1cdd3142060, type: 2}
+  Speed: 950
+  FireDelay: 2
+  Radius: 40
+  Mask:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!195 &195340461526310476
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259382162249310}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

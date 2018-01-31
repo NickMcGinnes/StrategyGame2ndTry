@@ -12,10 +12,15 @@ public class MoveTowardNearestPlayerUnit : MonoBehaviour
 	private float _smallestDistance = float.MaxValue;
 
 	private GameObject _target;
+
+	private MyAgent _agent;
 	
 	// Use this for initialization
-	void Start () {
-		foreach (GameObject obj in GameObject.FindGameObjectsWithTag("PlayerUnits"))
+	void Start ()
+	{
+		_agent = gameObject.GetComponent<MyAgent>();
+		
+		foreach (GameObject obj in GameObject.FindGameObjectsWithTag("PlayerMainShip"))
 		{
 			float squareDistance = (transform.position - obj.transform.position).sqrMagnitude;
 			if (squareDistance < _smallestDistance)
@@ -29,6 +34,7 @@ public class MoveTowardNearestPlayerUnit : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		transform.position += (_target.transform.position - transform.position).normalized * MovementSpeed * Time.deltaTime;
+		//transform.position += (_target.transform.position - transform.position).normalized * MovementSpeed * Time.deltaTime;
+		_agent.NavTarget(_target.transform.position);
 	}
 }
